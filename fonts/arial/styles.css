@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Arial';
+  src: url(./Arial.eot);
+  src: url(./Arial.eot?#iefix) format('embedded-opentype'),
+       url(./Arial.otf) format('otf'),
+       url(./Arial.svg#Arial) format('svg'),
+       url(./Arial.ttf) format('truetype'),
+       url(./Arial.woff) format('woff'),
+       url(./Arial.woff2) format('woff2');
+}
