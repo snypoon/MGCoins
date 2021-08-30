@@ -7,80 +7,83 @@
 	<title>MGCoins</title>
 </head>
 <body>
-		<div class="wrapper">
-			<div class="content">
-				<div class="scrollup">
-					<div class="scrollup__wrapper">
-						<div id="fab" class="hover-darken scrollup__button no-display" onClick="window.scrollTo(0, 0);"
-							style="padding: 16px; pointer-events: all; background-color: #454545; border-radius: 50%; cursor: pointer; box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);">
-							<svg class="scroll__arrow" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-												viewBox="0 0 492.004 492.004" style="enable-background:new 0 0 492.004 492.004;" xml:space="preserve">
-														<path d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12
-																c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028
-																c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265
-																c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"/>
-							</svg>
-						</div>
+	<div class="wrapper">
+		<div class="content">
+			<div class="scrollup">
+				<div class="scrollup__wrapper">
+					<div id="fab" class="hover-darken scrollup__button no-display" onClick="window.scrollTo(0, 0);"
+						style="padding: 16px; pointer-events: all; background-color: #454545; border-radius: 50%; cursor: pointer; box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);">
+						<svg class="scroll__arrow" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 492.004 492.004" style="enable-background:new 0 0 492.004 492.004;" xml:space="preserve">
+													<path d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12
+															c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028
+															c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265
+															c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"/>
+						</svg>
 					</div>
 				</div>
-				<div class="navbar-background"></div>
-				<nav class="navbar">
-					<div class="navbar__logo">
-						<img class="navbar__img" src="media/big_logo.png" alt="logo"/>
+			</div>
+			<div class="navbar-background"></div>
+			<nav class="navbar">
+				<div class="navbar__logo">
+					<img class="navbar__img" src="media/big_logo.png" alt="logo"/>
+			</div>
+				<div class=navbar__items>
+					<a href="#" class="navbar__link">Catalog</a>
+					<a href="#" class="navbar__link">Auctions</a>
+					<a href="#" class="navbar__link">News</a>
+					<a href="#" class="navbar__link">Partners</a>
+					<a href="#" class="navbar__link">About</a>
+					<div class="navbar__language custom-select">
+						<select class="navbar__select">
+							<option class="navbar__option">EN</option>
+							<option class="navbar__option">EN</option>
+							<option class="navbar__option">RU</option>
+							<option class="navbar__option">DE</option>
+							<option class="navbar__option">ES</option>
+						</select>
+					</div>
 				</div>
-					<div class=navbar__items>
-						<a href="#" class="navbar__link">Catalog</a>
-						<a href="#" class="navbar__link">Auctions</a>
-						<a href="#" class="navbar__link">News</a>
-						<a href="#" class="navbar__link">Partners</a>
-						<a href="#" class="navbar__link">About</a>
-						<div class="navbar__language">
-							<select class="navbar__select">
-								<option class="navbar__option">EN</option>
-								<option class="navbar__option">RU</option>
-								<option class="navbar__option">DE</option>
-								<option class="navbar__option">ES</option>
-							</select>
-						</div>
-					</div>
-					<div class="navbar__items_right">
-						<div class="navbar__currency">Xay=1.256$</div>
-						<button class="navbar__btn hover-darken">Log in</button>
-					</div>
-				</nav>
-				<section class="hero">
-					<img class="hero__image" id="hero-image" alt="hero-image" src="media/hero-image-1.png" />
-					<div class="hero__overlay">
-						<div class="hero__content">
-							<div class="hero__icon">
-								<div class="hero__arrow arrow-icon-left hover-darken" onClick="onHeroGalleryScrollLeft();">&#8250;</div>
-							</div>
-							<button class="hero__btn hover-darken">Buy Now</button>
-						</div>
+				<div class="navbar__items_right">
+					<div class="navbar__currency">Xay=1.256$</div>
+					<button class="navbar__btn hover-darken">Log in</button>
+				</div>
+			</nav>
+			<section class="hero">
+				<img class="hero__image" id="hero-image" alt="hero-image" src="media/hero-image-1.png" />
+				<div class="hero__overlay">
+					<div class="hero__content">
 						<div class="hero__icon">
-							<div class="hero__arrow hover-darken" onClick="onHeroGalleryScrollRight();">&#8250;</div>
+							<div class="hero__arrow arrow-icon-left hover-darken" onClick="onHeroGalleryScrollLeft();">&#8250;</div>
 						</div>
 					</div>
-				</section>
-				<section class="catalog">
-					<div class="catalog__label">
-						<h3 class="catalog__title">MODERN GOLD COINS CATALOG</h3>
-						<div class="catalog__filters">
-							<div class="filters__close hover-darken">
-								<img class="filters__close_icon" src="media/close.svg" alt="close">
-							</div>
-							<div class="filters__title">Reset Filters</div>
-						</div>
+					<div class="hero__icon">
+						<div class="hero__arrow hover-darken" onClick="onHeroGalleryScrollRight();">&#8250;</div>
 					</div>
-					<form class="catalog__form">
-						<input class="form__search" type="text" placeholder="Search through coin list" />
-						<div class="form__options">
+				</div>
+			</section>
+			<section class="catalog">
+				<div class="catalog__label">
+					<h3 class="catalog__title">MODERN GOLD COINS CATALOG</h3>
+					<div class="catalog__filters">
+						<div class="filters__close hover-darken">
+							<img class="filters__close_icon" src="media/close.svg" alt="close">
+						</div>
+						<div class="filters__title">Reset Filters</div>
+					</div>
+				</div>
+				<form class="catalog__form">
+					<input class="form__search" type="text" placeholder="Search through coin list" />
+					<div class="form__options">
+						<div class="custom__country custom-select-catalog">
 							<select class="form__country" required>
 								<option value="" disabled selected hidden>Country</option>
 								<option>Germany</option>
 								<option>Mexico</option>
 								<option>Russia</option>
 							</select>
+						</div>
+						<div class="custom__collection custom-select-catalog">
 							<select class="form__collection" required>
 								<option value="" disabled selected hidden>Collection Theme</option>
 								<option>Theme 1</option>
@@ -89,6 +92,8 @@
 								<option>Theme 4</option>
 								<option>Theme 5</option>
 							</select>
+						</div>
+						<div class="custom__year custom-select-catalog">
 							<select class="form__year" required>
 								<option value="" disabled selected hidden>Year</option>
 								<option>Year 1</option>
@@ -97,6 +102,8 @@
 								<option>Year 4</option>
 								<option>Year 5</option>
 							</select>
+						</div>
+						<div class="custom__year_to custom-select-catalog">
 							<select class="form__year_to" required>
 								<option value="" disabled selected hidden>To</option>
 								<option>Option 1</option>
@@ -105,6 +112,8 @@
 								<option>Option 4</option>
 								<option>Option 5</option>
 							</select>
+						</div>
+						<div class="custom__weight custom-select-catalog">
 							<select class="form__weight" required>
 								<option value="" disabled selected hidden>Weight</option>
 								<option>Option 1</option>
@@ -113,6 +122,8 @@
 								<option>Option 4</option>
 								<option>Option 5</option>
 							</select>
+						</div>
+						<div class="custom__weight_to custom-select-catalog">
 							<select class="form__weight_to"required>
 								<option value="" disabled selected hidden>To</option>
 								<option>Option 1</option>
@@ -121,587 +132,540 @@
 								<option>Option 4</option>
 								<option>Option 5</option>
 							</select>
-							<button class="form__btn hover-lighten">Search</button>
 						</div>
-					</form>
-				</section>
-				<section class="coins">
-					<div class="coins__label">
-						<div class="coins__title_line"></div>
-						<h1 class="coins__title">COIN NOVELTIES <br/> COURTYARDS OF THE WORLD</h1>
+						<button class="form__btn hover-lighten">Search</button>
 					</div>
-					<div class="coins__list styled-scrollbar">
-						<div class="coins__item">
-							<img class="coins__img" src="media/coin-1.png" alt="coin" />
-							<div class="coins__text">Proof Silver Dollar - <br />100th Anniversary of Bluenosw</div>
-							<span class="coins__subtext">(2001)</span>
-						</div>
-						<div class="coins__item">
-							<img class="coins__img" src="media/coin-2.png" alt="coin" />
-							<div class="coins__text">Proof Silver Dollar - <br />100th Anniversary of Bluenosw</div>
-							<span class="coins__subtext">(2001)</span>
-						</div>
-						<div class="coins__item">
-							<img class="coins__img" src="media/coin-1.png" alt="coin" />
-							<div class="coins__text">Proof Silver Dollar - <br />100th Anniversary of Bluenosw</div>
-							<span class="coins__subtext">(2001)</span>
-						</div>
-						<div class="coins__item">
-							<img class="coins__img" src="media/coin-2.png" alt="coin" />
-							<div class="coins__text">Proof Silver Dollar - <br />100th Anniversary of Bluenosw</div>
-							<span class="coins__subtext">(2001)</span>
-						</div>
-						<div class="coins__item">
-							<img class="coins__img" src="media/coin-1.png" alt="coin" />
-							<div class="coins__text">Proof Silver Dollar - <br />100th Anniversary of Bluenosw</div>
-							<span class="coins__subtext">(2001)</span>
-						</div>
-						<div class="coins__item">
-							<img class="coins__img" src="media/coin-2.png" alt="coin" />
-							<div class="coins__text">Proof Silver Dollar - <br />100th Anniversary of Bluenosw</div>
-							<span class="coins__subtext">(2001)</span>
-						</div>
-						<div class="coins__item">
-							<img class="coins__img" src="media/coin-1.png" alt="coin" />
-							<div class="coins__text">Proof Silver Dollar - <br />100th Anniversary of Bluenosw</div>
-							<span class="coins__subtext">(2001)</span>
-						</div>
-						<div class="coins__item">
-							<img class="coins__img" src="media/coin-2.png" alt="coin" />
-							<div class="coins__text">Proof Silver Dollar - <br />100th Anniversary of Bluenosw</div>
-							<span class="coins__subtext">(2001)</span>
-						</div>
+				</form>
+			</section>
+			<section class="coins">
+				<div class="coins__label">
+					<div class="coins__title_line"></div>
+					<h1 class="coins__title">COIN NOVELTIES <br/> COURTYARDS OF THE WORLD</h1>
+				</div>
+				<div class="coins__list styled-scrollbar">
+					<div class="coins__item">
+						<img class="coins__img" src="media/coin-1.png" alt="coin" />
+						<div class="coins__text">Proof Silver Dollar - <br />100th Anniversary of Bluenosw</div>
+						<span class="coins__subtext">(2001)</span>
 					</div>
-				</section>
-				<section class="auction">
-					<div class="auction__label">
-						<div class="auction__title_line"></div>
-						<h1 class="auction__title">COIN AUCTIONS</h1>
-						<div class="auction__showall hover-darken">
-							<div class="auction__showall_text">Show all auctions</div>
-							<img src="media/arrow_small_yellow.svg" alt="arrow" class="auction__showall_arrow"></img>
-						</div>
+					<div class="coins__item">
+						<img class="coins__img" src="media/coin-2.png" alt="coin" />
+						<div class="coins__text">Proof Silver Dollar - <br />100th Anniversary of Bluenosw</div>
+						<span class="coins__subtext">(2001)</span>
 					</div>
-					<div class="auction__table">
-						<div class="auction__item">
-							<div class="auction__left">
-								<div class="auction__date">23 June 2021</div>
-								<div class="auction__icons">
-									<img src="media/close.svg" alt="close" class="auction__close hover-darken">
-									<img src="media/eye_icon.svg" alt="view" class="auction__view hover-darken">
-									<img src="media/star_icon.svg" alt="star"class="auction__star hover-darken">
-								</div>
+					<div class="coins__item">
+						<img class="coins__img" src="media/coin-1.png" alt="coin" />
+						<div class="coins__text">Proof Silver Dollar - <br />100th Anniversary of Bluenosw</div>
+						<span class="coins__subtext">(2001)</span>
+					</div>
+					<div class="coins__item">
+						<img class="coins__img" src="media/coin-2.png" alt="coin" />
+						<div class="coins__text">Proof Silver Dollar - <br />100th Anniversary of Bluenosw</div>
+						<span class="coins__subtext">(2001)</span>
+					</div>
+					<div class="coins__item">
+						<img class="coins__img" src="media/coin-1.png" alt="coin" />
+						<div class="coins__text">Proof Silver Dollar - <br />100th Anniversary of Bluenosw</div>
+						<span class="coins__subtext">(2001)</span>
+					</div>
+					<div class="coins__item">
+						<img class="coins__img" src="media/coin-2.png" alt="coin" />
+						<div class="coins__text">Proof Silver Dollar - <br />100th Anniversary of Bluenosw</div>
+						<span class="coins__subtext">(2001)</span>
+					</div>
+					<div class="coins__item">
+						<img class="coins__img" src="media/coin-1.png" alt="coin" />
+						<div class="coins__text">Proof Silver Dollar - <br />100th Anniversary of Bluenosw</div>
+						<span class="coins__subtext">(2001)</span>
+					</div>
+					<div class="coins__item">
+						<img class="coins__img" src="media/coin-2.png" alt="coin" />
+						<div class="coins__text">Proof Silver Dollar - <br />100th Anniversary of Bluenosw</div>
+						<span class="coins__subtext">(2001)</span>
+					</div>
+				</div>
+			</section>
+			<section class="auction">
+				<div class="auction__label">
+					<div class="auction__title_line"></div>
+					<h1 class="auction__title">COIN AUCTIONS</h1>
+					<div class="auction__showall hover-darken">
+						<div class="auction__showall_text">Show all auctions</div>
+						<img src="media/arrow_small_yellow.svg" alt="arrow" class="auction__showall_arrow"></img>
+					</div>
+				</div>
+				<div class="auction__table">
+					<div class="auction__item">
+						<div class="auction__left">
+							<div class="auction__date">23 June 2021</div>
+							<div class="auction__icons">
+								<img src="media/close.svg" alt="close" class="auction__close hover-darken">
+								<img src="media/eye_icon.svg" alt="view" class="auction__view hover-darken">
+								<img src="media/star_icon.svg" alt="star"class="auction__star hover-darken">
 							</div>
-							<div class="auction__right">
-								<div class="auction__content">
-									<div class="auction__info">
-										<div class="auction__text">
-											<span class="auction__name">CLASSICAL NUMISMATIC GROUP, LL -</span>
-											<span class="auction__place">INTERNET</span>	
-											<span class="auction__desc">- Frankfurt stadt dukat long auction name Frankfurt stadt dukat long auction name</span>
-											<span class="auction__location"> | Madrid (ES)</span>
-										</div>
-										<div class="auction__links">
-											<span class="auction__links_view">view:</span>
-											<a href="https://sixbid.com" class="auction__link">sixbid.com</a>
-											<a href="https://arsclassicacoins.com" class="auction__link">arsclassicacoins.com</a>
-											<a href="https://biddr.com" class="auction__link">biddr.com</a>
-											<a href="#" class="auction__links_all">See All ...</a>
-										</div>
+						</div>
+						<div class="auction__right">
+							<div class="auction__content">
+								<div class="auction__info">
+									<div class="auction__text">
+										<span class="auction__name">CLASSICAL NUMISMATIC GROUP, LL -</span>
+										<span class="auction__place">INTERNET</span>	
+										<span class="auction__desc">- Frankfurt stadt dukat long auction name Frankfurt stadt dukat long auction name</span>
+										<span class="auction__location"> | Madrid (ES)</span>
 									</div>
-								</div>
-							</div>
-							<div class="auction__new">
-								<span class="auction__new_text">New</span>
-							</div>
-						</div>
-						<div class="auction__item">
-							<div class="auction__left">
-								<div class="auction__date">23 June 2021</div>
-								<div class="auction__icons">
-									<img src="media/close.svg" alt="close" class="auction__close hover-darken">
-									<img src="media/eye_icon.svg" alt="view" class="auction__view hover-darken">
-									<img src="media/star_icon.svg" alt="star"class="auction__star hover-darken">
-								</div>
-							</div>
-							<div class="auction__right">
-								<div class="auction__content">
-									<div class="auction__info">
-										<div class="auction__text">
-											<span class="auction__name">CLASSICAL NUMISMATIC GROUP, LL -</span>
-											<span class="auction__place">INTERNET</span>	
-											<span class="auction__desc">- Frankfurt stadt dukat long auction name Frankfurt stadt dukat long auction name</span>
-											<span class="auction__location"> | Madrid (ES)</span>
-										</div>
-										<div class="auction__links">
-											<span class="auction__links_view">view:</span>
-											<a href="https://sixbid.com" class="auction__link">sixbid.com</a>
-											<a href="https://arsclassicacoins.com" class="auction__link">arsclassicacoins.com</a>
-											<a href="https://biddr.com" class="auction__link">biddr.com</a>
-											<a href="#" class="auction__links_all">See All ...</a>
-										</div>
+									<div class="auction__links">
+										<span class="auction__links_view">view:</span>
+										<a href="https://sixbid.com" class="auction__link">sixbid.com</a>
+										<a href="https://arsclassicacoins.com" class="auction__link">arsclassicacoins.com</a>
+										<a href="https://biddr.com" class="auction__link">biddr.com</a>
+										<a href="#" class="auction__links_all">See All ...</a>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="auction__item">
-							<div class="auction__left">
-								<div class="auction__date">23 June 2021</div>
-								<div class="auction__icons">
-									<img src="media/close.svg" alt="close" class="auction__close hover-darken">
-									<img src="media/eye_icon.svg" alt="view" class="auction__view hover-darken">
-									<img src="media/star_icon.svg" alt="star"class="auction__star hover-darken">
-								</div>
-							</div>
-							<div class="auction__right">
-								<div class="auction__content">
-									<img class="auction__img" src="media/auction_banner.png" alt="img">
-									<div class="auction__info">
-										<div class="auction__text">
-											<span class="auction__name">CLASSICAL NUMISMATIC GROUP, LL -</span>
-											<span class="auction__place">INTERNET</span>	
-											<span class="auction__desc">- Frankfurt stadt dukat long auction name Frankfurt stadt dukat long auction name</span>
-											<span class="auction__location"> | Madrid (ES)</span>
-										</div>
-										<div class="auction__links">
-											<span class="auction__links_view">view:</span>
-											<a href="https://sixbid.com" class="auction__link">sixbid.com</a>
-											<a href="https://arsclassicacoins.com" class="auction__link">arsclassicacoins.com</a>
-											<a href="https://biddr.com" class="auction__link">biddr.com</a>
-											<a href="#" class="auction__links_all">See All ...</a>
-										</div>
-									</div>
-								</div>
-								<div class="auction__tags">
-									<span class="auction__tags_title">tags:</span>
-									<span class="auction__tags_text">coins, large, gold, small, coins, large, gold, small, coins, large, gold, small, coins, large, gold, small, coins, large, gold, small, coins, large, gold, small, coins, large, gold, small, coins, large, gold, small, coins, large, gold, small, coins, large, gold, small,</span>
-								</div>
-							</div>
-							<div class="auction__new">
-								<span class="auction__new_text">New</span>
+						<div class="auction__new">
+							<span class="auction__new_text">New</span>
+						</div>
+					</div>
+					<div class="auction__item">
+						<div class="auction__left">
+							<div class="auction__date">23 June 2021</div>
+							<div class="auction__icons">
+								<img src="media/close.svg" alt="close" class="auction__close hover-darken">
+								<img src="media/eye_icon.svg" alt="view" class="auction__view hover-darken">
+								<img src="media/star_icon.svg" alt="star"class="auction__star hover-darken">
 							</div>
 						</div>
-						<div class="auction__item">
-							<div class="auction__left">
-								<div class="auction__date">23 June 2021</div>
-								<div class="auction__icons">
-									<img src="media/close.svg" alt="close" class="auction__close hover-darken">
-									<img src="media/eye_icon.svg" alt="view" class="auction__view hover-darken">
-									<img src="media/star_icon.svg" alt="star"class="auction__star hover-darken">
-								</div>
-							</div>
-							<div class="auction__right">
-								<div class="auction__content">
-									<div class="auction__info">
-										<div class="auction__text">
-											<span class="auction__name">CLASSICAL NUMISMATIC GROUP, LL -</span>
-											<span class="auction__place">INTERNET</span>	
-											<span class="auction__desc">- Frankfurt stadt dukat long auction name Frankfurt stadt dukat long auction name</span>
-											<span class="auction__location"> | Madrid (ES)</span>
-										</div>
-										<div class="auction__links">
-											<span class="auction__links_view">view:</span>
-											<a href="https://sixbid.com" class="auction__link">sixbid.com</a>
-											<a href="https://arsclassicacoins.com" class="auction__link">arsclassicacoins.com</a>
-											<a href="https://biddr.com" class="auction__link">biddr.com</a>
-											<a href="#" class="auction__links_all">See All ...</a>
-										</div>
+						<div class="auction__right">
+							<div class="auction__content">
+								<div class="auction__info">
+									<div class="auction__text">
+										<span class="auction__name">CLASSICAL NUMISMATIC GROUP, LL -</span>
+										<span class="auction__place">INTERNET</span>	
+										<span class="auction__desc">- Frankfurt stadt dukat long auction name Frankfurt stadt dukat long auction name</span>
+										<span class="auction__location"> | Madrid (ES)</span>
+									</div>
+									<div class="auction__links">
+										<span class="auction__links_view">view:</span>
+										<a href="https://sixbid.com" class="auction__link">sixbid.com</a>
+										<a href="https://arsclassicacoins.com" class="auction__link">arsclassicacoins.com</a>
+										<a href="https://biddr.com" class="auction__link">biddr.com</a>
+										<a href="#" class="auction__links_all">See All ...</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</section>
-				<section class="news">
-					<div class="news__label">
-						<div class="news__title_line"></div>
-						<h1 class="news__title">NEWS</h1>
-						<div class="news__archive">
-							<input class="archive__input" type="text" placeholder="News Archive" />
-							<div class="archive__icon hover-darken">
-								<img class="archive__arrow arrow-icon-left" src="media/arrow_small_icon.svg"></img>
+					<div class="auction__item">
+						<div class="auction__left">
+							<div class="auction__date">23 June 2021</div>
+							<div class="auction__icons">
+								<img src="media/close.svg" alt="close" class="auction__close hover-darken">
+								<img src="media/eye_icon.svg" alt="view" class="auction__view hover-darken">
+								<img src="media/star_icon.svg" alt="star"class="auction__star hover-darken">
 							</div>
-							<div class="archive__icon hover-darken">
-								<img class="archive__arrow" src="media/arrow_small_icon.svg"></img>
+						</div>
+						<div class="auction__right">
+							<div class="auction__content">
+								<img class="auction__img" src="media/auction_banner.png" alt="img">
+								<div class="auction__info">
+									<div class="auction__text">
+										<span class="auction__name">CLASSICAL NUMISMATIC GROUP, LL -</span>
+										<span class="auction__place">INTERNET</span>	
+										<span class="auction__desc">- Frankfurt stadt dukat long auction name Frankfurt stadt dukat long auction name</span>
+										<span class="auction__location"> | Madrid (ES)</span>
+									</div>
+									<div class="auction__links">
+										<span class="auction__links_view">view:</span>
+										<a href="https://sixbid.com" class="auction__link">sixbid.com</a>
+										<a href="https://arsclassicacoins.com" class="auction__link">arsclassicacoins.com</a>
+										<a href="https://biddr.com" class="auction__link">biddr.com</a>
+										<a href="#" class="auction__links_all">See All ...</a>
+									</div>
+								</div>
+							</div>
+							<div class="auction__tags">
+								<span class="auction__tags_title">tags:</span>
+								<span class="auction__tags_text">coins, large, gold, small, coins, large, gold, small, coins, large, gold, small, coins, large, gold, small, coins, large, gold, small, coins, large, gold, small, coins, large, gold, small, coins, large, gold, small, coins, large, gold, small, coins, large, gold, small,</span>
+							</div>
+						</div>
+						<div class="auction__new">
+							<span class="auction__new_text">New</span>
+						</div>
+					</div>
+					<div class="auction__item">
+						<div class="auction__left">
+							<div class="auction__date">23 June 2021</div>
+							<div class="auction__icons">
+								<img src="media/close.svg" alt="close" class="auction__close hover-darken">
+								<img src="media/eye_icon.svg" alt="view" class="auction__view hover-darken">
+								<img src="media/star_icon.svg" alt="star"class="auction__star hover-darken">
+							</div>
+						</div>
+						<div class="auction__right">
+							<div class="auction__content">
+								<div class="auction__info">
+									<div class="auction__text">
+										<span class="auction__name">CLASSICAL NUMISMATIC GROUP, LL -</span>
+										<span class="auction__place">INTERNET</span>	
+										<span class="auction__desc">- Frankfurt stadt dukat long auction name Frankfurt stadt dukat long auction name</span>
+										<span class="auction__location"> | Madrid (ES)</span>
+									</div>
+									<div class="auction__links">
+										<span class="auction__links_view">view:</span>
+										<a href="https://sixbid.com" class="auction__link">sixbid.com</a>
+										<a href="https://arsclassicacoins.com" class="auction__link">arsclassicacoins.com</a>
+										<a href="https://biddr.com" class="auction__link">biddr.com</a>
+										<a href="#" class="auction__links_all">See All ...</a>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="news__content">
-						<div class="news__col news__col_left">
-							<div class="news__block">
-								<div class="news__block_label hover-darken">
+				</div>
+			</section>
+			<section class="news">
+				<div class="news__label">
+					<div class="news__title_line"></div>
+					<h1 class="news__title">NEWS</h1>
+					<div class="news__archive">
+						<input class="archive__input" type="text" placeholder="News Archive" />
+						<div class="archive__icon hover-darken">
+							<img class="archive__arrow arrow-icon-left" src="media/arrow_small_icon.svg"></img>
+						</div>
+						<div class="archive__icon hover-darken">
+							<img class="archive__arrow" src="media/arrow_small_icon.svg"></img>
+						</div>
+					</div>
+				</div>
+				<div class="news__content">
+					<div class="news__col news__col_left">
+						<div class="news__block">
+							<div class="news__block_label hover-darken">
+								<h2 class="news__block_title">Royal Canadian Mint</h2>
+								<img class="news__block_arrow" src="media/arrow_small_white.svg" alt="arrow">
+							</div>
+							<img class="news__block_img" src="media/roual-canadian-news-img-1.png" alt="coin" />
+						</div>
+					</div>
+						<div class="news__col news__col_right">
+							<div class="news__block news__block-right">
+								<div class="news__block_label news__block_label-right hover-darken">
 									<h2 class="news__block_title">Royal Canadian Mint</h2>
-									<img class="news__block_arrow" src="media/arrow_small_white.svg" alt="arrow">
+									<img class="news__block_arrow" src="media/arrow_small_grey.svg" alt="arrow">
 								</div>
-								<img class="news__block_img" src="media/roual-canadian-news-img-1.png" alt="coin" />
+								<img class="news__block_img-right" src="media/roual-canadian-news-img-2.png" alt="coin" />
+							</div>
+							<div class="news__block news__block-right">
+								<div class="news__block_label news__block_label-right news__block_label-right-second hover-darken">
+									<h2 class="news__block_title">Royal Canadian Mint</h2>
+									<img class="news__block_arrow" src="media/arrow_small_grey.svg" alt="arrow">
+								</div>
+								<img class="news__block_img-right" src="media/roual-canadian-news-img-3.png" alt="coin" />
 							</div>
 						</div>
-							<div class="news__col news__col_right">
-								<div class="right-news-wrapper">
-									<div class="news-title-right" style="background-color: rgb(244, 217, 172);">
-										<h3>Roual Canadian Mint</h3>
-											<br />
-										<svg class="arrow-grey" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-											viewBox="0 0 492.004 492.004" style="enable-background:new 0 0 492.004 492.004;" xml:space="preserve">
-													<path d="M484.14,226.886L306.46,49.202c-5.072-5.072-11.832-7.856-19.04-7.856c-7.216,0-13.972,2.788-19.044,7.856l-16.132,16.136
-															c-5.068,5.064-7.86,11.828-7.86,19.04c0,7.208,2.792,14.2,7.86,19.264L355.9,207.526H26.58C11.732,207.526,0,219.15,0,234.002
-															v22.812c0,14.852,11.732,27.648,26.58,27.648h330.496L252.248,388.926c-5.068,5.072-7.86,11.652-7.86,18.864
-															c0,7.204,2.792,13.88,7.86,18.948l16.132,16.084c5.072,5.072,11.828,7.836,19.044,7.836c7.208,0,13.968-2.8,19.04-7.872
-															l177.68-177.68c5.084-5.088,7.88-11.88,7.86-19.1C492.02,238.762,489.228,231.966,484.14,226.886z"/></svg>
-										</div>
-										<div style="overflow: hidden;">
-											<img src="media/roual-canadian-news-img-2.png" alt="coin" />
-										</div>
-								</div>
-								<div class="right-news-wrapper">
-									<div class="news-title-right" style="background-color: #ffeed2;">
-										<h3>Roual Canadian Mint</h3>
-										<br />
-										<svg class="arrow-grey" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-								viewBox="0 0 492.004 492.004" style="enable-background:new 0 0 492.004 492.004;" xml:space="preserve">
-										<path d="M484.14,226.886L306.46,49.202c-5.072-5.072-11.832-7.856-19.04-7.856c-7.216,0-13.972,2.788-19.044,7.856l-16.132,16.136
-												c-5.068,5.064-7.86,11.828-7.86,19.04c0,7.208,2.792,14.2,7.86,19.264L355.9,207.526H26.58C11.732,207.526,0,219.15,0,234.002
-												v22.812c0,14.852,11.732,27.648,26.58,27.648h330.496L252.248,388.926c-5.068,5.072-7.86,11.652-7.86,18.864
-												c0,7.204,2.792,13.88,7.86,18.948l16.132,16.084c5.072,5.072,11.828,7.836,19.044,7.836c7.208,0,13.968-2.8,19.04-7.872
-												l177.68-177.68c5.084-5.088,7.88-11.88,7.86-19.1C492.02,238.762,489.228,231.966,484.14,226.886z"/></svg>
-										</div>
-										<div style="overflow: hidden">
-											<img src="media/roual-canadian-news-img-3.png" alt="coin" />
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="see-all-button-wrapper">
-							<button class="see-all-button hover-darken" style="color: white;">
-									See All 
-									<div class="button-arrow">&#10132;</div>
-							</button>
+					</div>
+					<button class="news__btn hover-darken">
+						See All <img class="news__btn_arrow" src="media/arrow_small_white.svg" alt="arrow">
+					</button>
+			</section>
+			<section class="rate">
+				<h3 class="rate__title">Gold rate to major world currencies</h3>
+				<div class="rate__content">
+					<div class="rate__table">
+						<div class="table__row table__row-header">
+							<div class="table__column">Silver</div>
+							<div class="table__column">oz</div>
+							<div class="table__column">gr</div>
+							<div class="table__column">kg</div>
 						</div>
-					</section>
-					<div class="currency-exchange-section">
-							<h3 class="text-light-dark" style="font-weight: bold;">
-									Gold rate to major world currencies
-							</h3>
-							<div style="display: flex; font-family: 'Arial Bold';">
-									<div class="table">
-											<div class="row row-header">
-													<div class="column">Silver</div>
-													<div class="column">oz</div>
-													<div class="column">gr</div>
-													<div class="column">kg</div>
-											</div>
-											<div class="row">
-													<div class="column">1 Xay <span class="text-light-hint">(72,23$)</span></div>
-													<div class="column">0.0203</div>
-													<div class="column">54.1915</div>
-													<div class="column">0.0541915</div>
-											</div>
-											<div class="row">
-													<div class="column">1 USD</div>
-													<div class="column">0.0203</div>
-													<div class="column">54.1915</div>
-													<div class="column">0.0541915</div>
-											</div>
-											<div class="row">
-													<div class="column">1 EUR <span class="text-light-hint">(72,23$)</span></div>
-													<div class="column">0.0203</div>
-													<div class="column">54.1915</div>
-													<div class="column">0.0541915</div>
-											</div>
-											<div class="row">
-													<div class="column">1 GPB <span class="text-light-hint">(72,23$)</span></div>
-													<div class="column">0.0203</div>
-													<div class="column">54.1915</div>
-													<div class="column">0.0541915</div>
-											</div>
-											<div class="row">
-													<div class="column">1 RUB <span class="text-light-hint">(72,23$)</span></div>
-													<div class="column">0.0203</div>
-													<div class="column">54.1915</div>
-													<div class="column">0.0541915</div>
-											</div>
-											<div class="row">
-													<div class="column">1 JPY <span class="text-light-hint">(72,23$)</span></div>
-													<div class="column">0.0203</div>
-													<div class="column">54.1915</div>
-													<div class="column">0.0541915</div>
-											</div>
-											<div class="row">
-													<div class="column">1 CNY <span class="text-light-hint">(72,23$)</span></div>
-													<div class="column">0.0203</div>
-													<div class="column">54.1915</div>
-													<div class="column">0.0541915</div>
-											</div>
-									</div>
-									<div class="currency-rows">
-											<div>
-													<div class="text-wrapper">
-															<div class="currency__title">
-																	<div class="currency__dollar_icon">$</div>
-																	<span>Gold</span>
-															</div>
-															<div>
-																	<span>0.0203</span>
-																	<span>54.1915</span>
-															</div>
-													</div>
-											</div>
-											<div class="selected">
-													<div class="text-wrapper">
-															<div class="currency__title">
-																	<div class="currency__dollar_icon">$</div>
-																	<span>Silver</span>
-															</div>
-															<div>
-																	<span>0.0203</span>
-																	<span>54.1915</span>
-															</div>
-													</div>
-											</div>
-											<div>
-													<div class="text-wrapper">
-															<div class="currency__title">
-																	<div class="currency__dollar_icon">$</div>
-																	<div>Platinum</div>
-															</div>
-															<div>
-																	<span>0.0203</span>
-																	<span>54.1915</span>
-															</div>
-													</div>
-											</div>
-											<div>
-													<div class="text-wrapper">
-															<div class="currency__title">
-																	<div class="currency__dollar_icon">$</div>
-																	<span>Palladium</span>
-															</div>
-															<div>
-																	<span>0.0203</span>
-																	<span>54.1915</span>
-															</div>
-													</div>
-											</div>
-									</div>
+						<div class="table__row">
+							<div class="table__column">
+								<img class="table__icon" src="media/xay.svg">
+								<span>1 XAY</span>  
+								<span class="text-light-hint">(72,23$)</span>
+							</div>
+							<div class="table__column">0.0203</div>
+							<div class="table__column">54.1915</div>
+							<div class="table__column">0.0541915</div>
+						</div>
+						<div class="table__row">
+							<div class="table__column">
+								<img class="table__icon" src="media/usd.svg">
+								<span>1 USD</span>  
+								<span class="text-light-hint">(72,23$)</span>
+							</div>
+							<div class="table__column">0.0203</div>
+							<div class="table__column">54.1915</div>
+							<div class="table__column">0.0541915</div>
+						</div>
+						<div class="table__row">
+							<div class="table__column">
+								<img class="table__icon" src="media/euro.svg">
+								<span>1 EUR</span>  
+								<span class="text-light-hint">(72,23$)</span>
+							</div>
+							<div class="table__column">0.0203</div>
+							<div class="table__column">54.1915</div>
+							<div class="table__column">0.0541915</div>
+						</div>
+						<div class="table__row">
+							<div class="table__column">
+								<img class="table__icon" src="media/gpb.svg">
+								<span>1 GPB</span>  
+								<span class="text-light-hint">(72,23$)</span>
+							</div>
+							<div class="table__column">0.0203</div>
+							<div class="table__column">54.1915</div>
+							<div class="table__column">0.0541915</div>
+						</div>
+						<div class="table__row">
+							<div class="table__column">
+								<img class="table__icon" src="media/ruble.svg">
+								<span>1 RUB</span>  
+								<span class="text-light-hint">(72,23$)</span>
+							</div>
+							<div class="table__column">0.0203</div>
+							<div class="table__column">54.1915</div>
+							<div class="table__column">0.0541915</div>
+						</div>
+						<div class="table__row">
+							<div class="table__column">
+								<img class="table__icon" src="media/yen.svg">
+								<span>1 JPY</span>  
+								<span class="text-light-hint">(72,23$)</span>
+							</div>
+							<div class="table__column">0.0203</div>
+							<div class="table__column">54.1915</div>
+							<div class="table__column">0.0541915</div>
+						</div>
+						<div class="table__row">
+							<div class="table__column">
+								<img class="table__icon" src="media/yen.svg">
+								<span>1 CNY</span>  
+								<span class="text-light-hint">(72,23$)</span>
+							</div>
+							<div class="table__column">0.0203</div>
+							<div class="table__column">54.1915</div>
+							<div class="table__column">0.0541915</div>
+						</div>
+					</div>
+					<div class="rate__metalls">
+							<div class="metalls__row">
+								<div class="metalls__col">
+									<img class="metalls__icon" src="media/usd.svg" alt="icon">
+									<div class="metalls__title">Gold</div>
+								</div>
+								<div class="metalls__col">
+									<span class="metals__data">0.0203</span>
+									<span class="metals__data">54.1915</span>
+								</div>
+							</div>
+							<div class="metalls__row">
+								<div class="metalls__col">
+									<img class="metalls__icon" src="media/usd.svg" alt="icon">
+									<div class="metalls__title">Silver</div>
+								</div>
+								<div class="metalls__col">
+									<span class="metals__data">0.0203</span>
+									<span class="metals__data">54.1915</span>
+								</div>
+							</div>
+							<div class="metalls__row metalls__row-active">
+								<div class="metalls__col">
+									<img class="metalls__icon" src="media/usd.svg" alt="icon">
+									<div class="metalls__title">Platinum</div>
+								</div>
+								<div class="metalls__col">
+									<span class="metals__data">0.0203</span>
+									<span class="metals__data">54.1915</span>
+								</div>
+							</div>
+							<div class="metalls__row">
+								<div class="metalls__col">
+									<img class="metalls__icon" src="media/usd.svg" alt="icon">
+									<div class="metalls__title">Palladium</div>
+								</div>
+								<div class="metalls__col">
+									<span class="metals__data">0.0203</span>
+									<span class="metals__data">54.1915</span>
+								</div>
 							</div>
 					</div>
-					<div class="about-section">
-							<div class="outlined-header">
-									<div class="outlined-header-inner">
-											<div class="bar" style="background-color: rgb(159, 43, 37);"></div>
-											<h1>
-													ABOUT MGC
-											</h1>
-									</div>
-							</div>
-							<div class="description">
-									Modern Gold Coins is one of the largest online auction platform for coins.
-									It gives collectors from all over the world the chance to bid online for the
-									most wanted numismatic treasures.
-							</div>
-							<div class="subheader">
-									Registration is free and gives you access to a number of benefits:
-							</div>
-							<div class="feature-wrapper">
-									<div class="feature-column">
-											<div class="feature-row">
-													<div class="feature-arrow">&#10132;</div>
-													<div>The worlds largest catalog of coins & banknotes</div>
-											</div>
-											<div class="feature-row">
-													<div class="feature-arrow">&#10132;</div>
-													<div>Ability to build your own collection</div>
-											</div>
-											<div class="feature-row">
-													<div class="feature-arrow">&#10132;</div>
-													<div>Search for similar coin auctions</div>
-											</div>
-									</div>
-									<div class="feature-column">
-											<div class="feature-row">
-													<div class="feature-arrow">&#10132;</div>
-													<div>MGC newsletter with selected highlights</div>
-											</div>
-											<div class="feature-row">
-													<div class="feature-arrow">&#10132;</div>
-													<div>Watch list and email reminder and other...</div>
-											</div>
-											<div class="feature-row">
-													<div class="feature-arrow">&#10132;</div>
-													<div>Convenient filters for your favourites</div>
-											</div>
-									</div>
-							</div>
+			</section>
+			<section class="about">
+				<div class="about__label">
+					<div class="about__titlte_line"></div>
+					<h2 class="about__title">ABOUT MGC</h2>
+				</div>
+				<p class="about__description">
+						Modern Gold Coins is one of the largest online auction platform for coins.
+						It gives collectors from all over the world the chance to bid online for the
+						most wanted numismatic treasures.
+				</p>
+				<p class="about__subtitle">
+						Registration is free and gives you access to a number of benefits:
+				</p>
+				<div class="about__list">
+					<div class="about__column">
+						<div class="about__row">
+							<div class="about__arrow">&#10132;</div>
+							<div>The worlds largest catalog of coins & banknotes</div>
+						</div>
+						<div class="about__row">
+							<div class="about__arrow">&#10132;</div>
+							<div>Ability to build your own collection</div>
+						</div>
+						<div class="about__row">
+							<div class="about__arrow">&#10132;</div>
+							<div>Search for similar coin auctions</div>
+						</div>
 					</div>
-					<div class="subscription-section">
-							<div class="left-block">
-									<div class="at-sign">@</div>
-									<div class="description">
-											<h2 style="font-weight: bold;">
-													News <br />
-													Subscription
-											</h2>
-											<div style="font-size: 18px; color: #333333;">Subscribe to our news to keep abreast of
-													the most current events
-													in the world of
-													numismatics.</div>
-									</div>
-									<div class="sub-newsletter">
-											<input type="text" class="w-100" placeholder="E-Mail" />
-											<input type="text" class="w-100" placeholder="Name" />
-											<div class="button-wrapper">
-													<label class="checkbox-label">
-															<input class="checkbox" type="checkbox"/>
-															<div class="checkbox-icon"></div>
-															<div>I give to receive mailings</div>
-													</label>
-													<button class="hover-lighten">Subscribe</button>
-											</div>
-									</div>
-							</div>
+					<div class="about__column">
+						<div class="about__row">
+							<div class="about__arrow">&#10132;</div>
+							<div>MGC newsletter with selected highlights</div>
+						</div>
+						<div class="about__row">
+							<div class="about__arrow">&#10132;</div>
+							<div>Watch list and email reminder and other...</div>
+						</div>
+						<div class="about__row">
+							<div class="about__arrow">&#10132;</div>
+							<div>Convenient filters for your favourites</div>
+						</div>
 					</div>
-					<div class="partner-section">
-							<div class="outlined-header">
-									<div style="display: flex; justify-content: space-between; align-items: center;">
-											<h2 style="font-weight: bold; margin-top: 0;">
-													Our partners
-											</h2>
-											<div class="hover-darken" style="display: flex; align-items: center; cursor: pointer;">
-													<div style="margin-right: 10px;">Show all partners</div>
-													<i class="fas fa-arrow-right" style="color: #ecaf4b;"></i>
-											</div>
-									</div>
-							</div>
-							<div class="partner-row">
-									<div class="item">
-											<img src="media/partner-1.png" alt="coin" />
-									</div>
-									<div class="item">
-											<img src="media/partner-2.png" alt="coin" />
-									</div>
-									<div class="item">
-											<img src="media/partner-3.png" alt="coin" />
-									</div>
-									<div class="item">
-											<img src="media/partner-4.png" alt="coin" />
-									</div>
-									<div class="item">
-											<img src="media/partner-5.png" alt="coin" />
-									</div>
-									<div class="item">
-											<img src="media/partner-1.png" alt="coin" />
-									</div>
-							</div>
-							<div class="partner-row">
-									<div class="item">
-											<img src="media/partner-1.png" alt="coin" />
-									</div>
-									<div class="item">
-											<img src="media/partner-2.png" alt="coin" />
-									</div>
-									<div class="item">
-											<img src="media/partner-3.png" alt="coin" />
-									</div>
-									<div class="item">
-											<img src="media/partner-4.png" alt="coin" />
-									</div>
-									<div class="item">
-											<img src="media/partner-5.png" alt="coin" />
-									</div>
-									<div class="item">
-											<img src="media/partner-1.png" alt="coin" />
-									</div>
-							</div>
-							<div class="partner-row">
-									<div class="item">
-											<img src="media/partner-1.png" alt="coin" />
-									</div>
-									<div class="item">
-											<img src="media/partner-2.png" alt="coin" />
-									</div>
-									<div class="item">
-											<img src="media/partner-3.png" alt="coin" />
-									</div>
-									<div class="item">
-											<img src="media/partner-4.png" alt="coin" />
-									</div>
-									<div class="item">
-											<img src="media/partner-5.png" alt="coin" />
-									</div>
-									<div class="item">
-											<img src="media/partner-1.png" alt="coin" />
-									</div>
-							</div>
-							<!--
-							<div class="image-grid">
-									
-									<div class="item">
-											<img src="media/partner-1.png" />
-									</div>
-									<div class="item">
-											<img src="media/partner-2.png" />
-									</div>
-									<div class="item">
-											<img src="media/partner-3.png" />
-									</div>
-									<div class="item">
-											<img src="media/partner-4.png" />
-									</div>
-									<div class="item">
-											<img src="media/partner-5.png" />
-									</div>
-									<div class="item">
-											<img src="media/partner-1.png" />
-									</div>
-									<div class="item">
-											<img src="media/partner-2.png" />
-									</div>
-									<div class="item">
-											<img src="media/partner-3.png" />
-									</div>
-									<div class="item">
-											<img src="media/partner-4.png" />
-									</div>
-									<div class="item">
-											<img src="media/partner-5.png" />
-									</div>
-							</div>
-					-->
+				</div>
+			</section>
+			<section class="subscription">
+				<div class="subscription__left">
+					<div class="subscription__img">@</div>
+					<div class="subscription__description">
+						<h2 class="subscription__title">News Subscription</h2>
+						<div class="subscription__subtitle">Subscribe to our news to keep abreast of
+								the most current events
+								in the world of
+								numismatics.
+						</div>
 					</div>
-					<div class="footer">
-							<div class="logo">MGC</div>
-							<div class="footer-navigation">
-									<div class="footer-navigation-items">
-											<a href="/catalog">
-													Catalog
-											</a>
-											<a href="/auctions">
-													Auctions
-											</a>
-											<a href="/news">
-													News
-											</a>
-											<a href="/partners">
-													Partners
-											</a>
-											<a href="/about">
-													About
-											</a>
-									</div>
-									<div class="copyright">
-											@Copyright by Modern Gold Coin - 2021. All rights reserved.
-									</div>
-							</div>
-							<div class="footer-social-icons">
-									<a class="hover-lighten" href="https://facebook.com"><i class="fab fa-facebook-square"></i></a>
-									<a class="hover-lighten" href="https://instagram.com"><i class="fab fa-instagram"></i></a>
-									<a class="hover-lighten" href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
-									<a class="hover-lighten" href="https://pinterest.com"><i class="fab fa-pinterest-square"></i></a>
-									<a class="hover-lighten" href="https://youtube.com"><i class="fab fa-youtube"></i></a>
-							</div>
+				</div>
+				<form class="subscription__form">
+					<input class="subscription__input" type="text" class="w-100" placeholder="E-Mail" />
+					<input class="subscription__input" type="text" class="w-100" placeholder="Name" />
+					<div class="subscription__action">
+						<label class="subscription__checkbox">
+								<input class="subscription__checkbox_input" type="checkbox"/>
+								<div class="subscription__checkbox-icon"></div>
+								<div>I give to receive mailings</div>
+						</label>
+						<button class="subscription__btn hover-lighten">Subscribe</button>
 					</div>
-			</div>
-			
+				</form>
+			</section>
+			<section class="partners">
+				<div class="partners__label">
+					<h2 class="partners__title">Our partners</h2>
+					<div class="partners__show hover-darken">
+						<div>Show all partners</div>
+						<img class="patners__arrow" src="media/arrow_small_yellow.svg" alt="arrow">
+					</div>
+				</div>
+				<div class="partners__row">
+					<div class="partners__item">
+						<img class="partners__img" src="media/partner-1.png" alt="coin" />
+					</div>
+					<div class="partners__item">
+						<img class="partners__img" src="media/partner-2.png" alt="coin" />
+					</div>
+					<div class="partners__item">
+						<img class="partners__img" src="media/partner-3.png" alt="coin" />
+					</div>
+					<div class="partners__item">
+						<img class="partners__img" src="media/partner-4.png" alt="coin" />
+					</div>
+					<div class="partners__item">
+						<img class="partners__img" src="media/partner-5.png" alt="coin" />
+					</div>
+					<div class="partners__item">
+						<img class="partners__img" src="media/partner-1.png" alt="coin" />
+					</div>
+				</div>
+				<div class="partners__row">
+					<div class="partners__item">
+						<img class="partners__img" src="media/partner-1.png" alt="coin" />
+					</div>
+					<div class="partners__item">
+						<img class="partners__img" src="media/partner-2.png" alt="coin" />
+					</div>
+					<div class="partners__item">
+						<img class="partners__img" src="media/partner-3.png" alt="coin" />
+					</div>
+					<div class="partners__item">
+						<img class="partners__img" src="media/partner-4.png" alt="coin" />
+					</div>
+					<div class="partners__item">
+						<img class="partners__img" src="media/partner-5.png" alt="coin" />
+					</div>
+					<div class="partners__item">
+						<img class="partners__img" src="media/partner-1.png" alt="coin" />
+					</div>
+				</div>
+				<div class="partners__row">
+					<div class="partners__item">
+						<img class="partners__img" src="media/partner-1.png" alt="coin" />
+					</div>
+					<div class="partners__item">
+						<img class="partners__img" src="media/partner-2.png" alt="coin" />
+					</div>
+					<div class="partners__item">
+						<img class="partners__img" src="media/partner-3.png" alt="coin" />
+					</div>
+					<div class="partners__item">
+						<img class="partners__img" src="media/partner-4.png" alt="coin" />
+					</div>
+					<div class="partners__item">
+						<img class="partners__img" src="media/partner-5.png" alt="coin" />
+					</div>
+					<div class="partners__item">
+						<img class="partners__img" src="media/partner-1.png" alt="coin" />
+					</div>
+				</div>
+			</section>
+			<footer class="footer">
+				<div class="footer__col">
+					<div class="footer__logo">MGC</div>
+					<nav class="footer__nav">
+						<div class="footer__links">
+							<a class="footer__link" href="/catalog">Catalog</a>
+							<a class="footer__link" href="/auctions">Auctions</a>
+							<a class="footer__link" href="/news">News</a>
+							<a class="footer__link" href="/partners">Partners</a>
+							<a class="footer__link" href="/about">About</a>
+						</div>
+						<span class="footer__copyright">@Copyright by Modern Gold Coin - 2021. All rights reserved.</span>
+					</nav>
+				</div>
+				<div class="footer__col">
+					<div class="footer__socials">
+						<a class="footer__socials_link hover-lighten" href="https://facebook.com" target="_blank">
+							<img class="footer__socials_img" src="media/facebook-logo.svg" alt="facebook">
+						</a>
+						<a class="footer__socials_link hover-lighten" href="https://instagram.com" target="_blank">
+							<img class="footer__socials_img" src="media/instagram-logo.svg" alt="instagram">
+						</a>
+						<a class="footer__socials_link hover-lighten" href="https://twitter.com" target="_blank">
+							<img class="footer__socials_img" src="media/twitter-logo.svg" alt="twitter">
+						</a>
+						<a class="footer__socials_link hover-lighten" href="https://pinterest.com" target="_blank">
+							<img class="footer__socials_img" src="media/pinterest-logo.svg" alt="pinterest">
+						</a>
+						<a class="footer__socials_link hover-lighten" href="https://youtube.com" target="_blank">
+							<img class="footer__socials_img" src="media/youtube-logo.svg" alt="youtube">
+						</a>
+					</div>
+				</div>
+			</footer>
+		</div>
 	</div>
 	<script src="js/script.js"></script>
 	</script>
