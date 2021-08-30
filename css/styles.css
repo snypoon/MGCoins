@@ -82,7 +82,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-input[type="text"], select {
+input[type="text"], input[type="email"] , input[type="name"], select {
 	padding: 6px 0 6px 10px;
 	border: 1px solid #cccccc;
 	-webkit-box-shadow: none;
@@ -488,6 +488,11 @@ option {
 	height: 15px;
 }
 
+.filters__title{
+	font-size: 14px;
+	font-family: 'Arial';
+}
+
 .catalog__title {
 	margin-top:	0;
 	margin-bottom:	0;
@@ -850,6 +855,8 @@ option {
 .archive__input {
 	height: 35px;
 	width: 132px;
+	text-align: center;
+	padding: 6px 0 !important;
 }
 
 .archive__arrow{
@@ -867,6 +874,19 @@ option {
 	height: 100%;
 }
 
+.news__col_left{
+	position: relative;
+}
+
+.news__col_left::after{
+	position: absolute;
+	content: '';
+	width: 80px;
+	height: 25%;
+	top: 0;
+	left: -80px;
+	background: #f4d9ab;
+}
 
 .news__block{
 	height: 100%;

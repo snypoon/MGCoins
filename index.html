@@ -2,7 +2,7 @@
 <html class="firefox-scrollbar" lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=1024, initial-scale=1.0">
 	<link rel="stylesheet" href="css/styles.css" />
 	<title>MGCoins</title>
 </head>
@@ -62,17 +62,17 @@
 					</div>
 				</div>
 			</section>
-			<section class="catalog">
+			<form class="catalog">
 				<div class="catalog__label">
 					<h3 class="catalog__title">MODERN GOLD COINS CATALOG</h3>
-					<div class="catalog__filters">
+					<button type="reset"  class="catalog__filters">
 						<div class="filters__close hover-darken">
 							<img class="filters__close_icon" src="media/close.svg" alt="close">
 						</div>
 						<div class="filters__title">Reset Filters</div>
-					</div>
+					</button>
 				</div>
-				<form class="catalog__form">
+				<div class="catalog__form">
 					<input class="form__search" type="text" placeholder="Search through coin list" />
 					<div class="form__options">
 						<div class="custom__country custom-select-catalog">
@@ -135,8 +135,8 @@
 						</div>
 						<button class="form__btn hover-lighten">Search</button>
 					</div>
-				</form>
-			</section>
+				</div>
+			</form>
 			<section class="coins">
 				<div class="coins__label">
 					<div class="coins__title_line"></div>
@@ -550,15 +550,15 @@
 					</div>
 				</div>
 				<form class="subscription__form">
-					<input class="subscription__input" type="text" class="w-100" placeholder="E-Mail" />
-					<input class="subscription__input" type="text" class="w-100" placeholder="Name" />
+					<input class="subscription__input" type="email" name="email" class="w-100" placeholder="E-Mail" required/>
+					<input class="subscription__input" type="name" name="name" class="w-100" placeholder="Name" required/>
 					<div class="subscription__action">
 						<label class="subscription__checkbox">
 								<input class="subscription__checkbox_input" type="checkbox"/>
 								<div class="subscription__checkbox-icon"></div>
 								<div>I give to receive mailings</div>
 						</label>
-						<button class="subscription__btn hover-lighten">Subscribe</button>
+						<button type="submit" class="subscription__btn hover-lighten">Subscribe</button>
 					</div>
 				</form>
 			</section>
