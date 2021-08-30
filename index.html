@@ -34,8 +34,9 @@
 					<a href="#" class="navbar__link">News</a>
 					<a href="#" class="navbar__link">Partners</a>
 					<a href="#" class="navbar__link">About</a>
-					<div class="navbar__language">
+					<div class="navbar__language custom-select">
 						<select class="navbar__select">
+							<option class="navbar__option">EN</option>
 							<option class="navbar__option">EN</option>
 							<option class="navbar__option">RU</option>
 							<option class="navbar__option">DE</option>
@@ -74,52 +75,64 @@
 				<form class="catalog__form">
 					<input class="form__search" type="text" placeholder="Search through coin list" />
 					<div class="form__options">
-						<select class="form__country" required>
-							<option value="" disabled selected hidden>Country</option>
-							<option>Germany</option>
-							<option>Mexico</option>
-							<option>Russia</option>
-						</select>
-						<select class="form__collection" required>
-							<option value="" disabled selected hidden>Collection Theme</option>
-							<option>Theme 1</option>
-							<option>Theme 2</option>
-							<option>Theme 3</option>
-							<option>Theme 4</option>
-							<option>Theme 5</option>
-						</select>
-						<select class="form__year" required>
-							<option value="" disabled selected hidden>Year</option>
-							<option>Year 1</option>
-							<option>Year 2</option>
-							<option>Year 3</option>
-							<option>Year 4</option>
-							<option>Year 5</option>
-						</select>
-						<select class="form__year_to" required>
-							<option value="" disabled selected hidden>To</option>
-							<option>Option 1</option>
-							<option>Option 2</option>
-							<option>Option 3</option>
-							<option>Option 4</option>
-							<option>Option 5</option>
-						</select>
-						<select class="form__weight" required>
-							<option value="" disabled selected hidden>Weight</option>
-							<option>Option 1</option>
-							<option>Option 2</option>
-							<option>Option 3</option>
-							<option>Option 4</option>
-							<option>Option 5</option>
-						</select>
-						<select class="form__weight_to"required>
-							<option value="" disabled selected hidden>To</option>
-							<option>Option 1</option>
-							<option>Option 2</option>
-							<option>Option 3</option>
-							<option>Option 4</option>
-							<option>Option 5</option>
-						</select>
+						<div class="custom__country custom-select-catalog">
+							<select class="form__country" required>
+								<option value="" disabled selected hidden>Country</option>
+								<option>Germany</option>
+								<option>Mexico</option>
+								<option>Russia</option>
+							</select>
+						</div>
+						<div class="custom__collection custom-select-catalog">
+							<select class="form__collection" required>
+								<option value="" disabled selected hidden>Collection Theme</option>
+								<option>Theme 1</option>
+								<option>Theme 2</option>
+								<option>Theme 3</option>
+								<option>Theme 4</option>
+								<option>Theme 5</option>
+							</select>
+						</div>
+						<div class="custom__year custom-select-catalog">
+							<select class="form__year" required>
+								<option value="" disabled selected hidden>Year</option>
+								<option>Year 1</option>
+								<option>Year 2</option>
+								<option>Year 3</option>
+								<option>Year 4</option>
+								<option>Year 5</option>
+							</select>
+						</div>
+						<div class="custom__year_to custom-select-catalog">
+							<select class="form__year_to" required>
+								<option value="" disabled selected hidden>To</option>
+								<option>Option 1</option>
+								<option>Option 2</option>
+								<option>Option 3</option>
+								<option>Option 4</option>
+								<option>Option 5</option>
+							</select>
+						</div>
+						<div class="custom__weight custom-select-catalog">
+							<select class="form__weight" required>
+								<option value="" disabled selected hidden>Weight</option>
+								<option>Option 1</option>
+								<option>Option 2</option>
+								<option>Option 3</option>
+								<option>Option 4</option>
+								<option>Option 5</option>
+							</select>
+						</div>
+						<div class="custom__weight_to custom-select-catalog">
+							<select class="form__weight_to"required>
+								<option value="" disabled selected hidden>To</option>
+								<option>Option 1</option>
+								<option>Option 2</option>
+								<option>Option 3</option>
+								<option>Option 4</option>
+								<option>Option 5</option>
+							</select>
+						</div>
 						<button class="form__btn hover-lighten">Search</button>
 					</div>
 				</form>
@@ -634,19 +647,19 @@
 				</div>
 				<div class="footer__col">
 					<div class="footer__socials">
-						<a class="footer__socials_link hover-lighten" href="https://facebook.com">
+						<a class="footer__socials_link hover-lighten" href="https://facebook.com" target="_blank">
 							<img class="footer__socials_img" src="media/facebook-logo.svg" alt="facebook">
 						</a>
-						<a class="footer__socials_link hover-lighten" href="https://instagram.com">
+						<a class="footer__socials_link hover-lighten" href="https://instagram.com" target="_blank">
 							<img class="footer__socials_img" src="media/instagram-logo.svg" alt="instagram">
 						</a>
-						<a class="footer__socials_link hover-lighten" href="https://twitter.com">
+						<a class="footer__socials_link hover-lighten" href="https://twitter.com" target="_blank">
 							<img class="footer__socials_img" src="media/twitter-logo.svg" alt="twitter">
 						</a>
-						<a class="footer__socials_link hover-lighten" href="https://pinterest.com">
+						<a class="footer__socials_link hover-lighten" href="https://pinterest.com" target="_blank">
 							<img class="footer__socials_img" src="media/pinterest-logo.svg" alt="pinterest">
 						</a>
-						<a class="footer__socials_link hover-lighten" href="https://youtube.com">
+						<a class="footer__socials_link hover-lighten" href="https://youtube.com" target="_blank">
 							<img class="footer__socials_img" src="media/youtube-logo.svg" alt="youtube">
 						</a>
 					</div>
