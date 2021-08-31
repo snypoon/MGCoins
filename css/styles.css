@@ -153,7 +153,6 @@ html {
 }
 
 body {
-	background: url("bg.png") repeat;
 	min-height:	100vh;
 	background-color: #ffffff;
 }
@@ -515,12 +514,12 @@ option {
 }
 
 .filters__close{
-	margin-right:	20px;
 	display: flex;
 	align-items: center;
 }
 
 .filters__close_icon{
+	margin-right:	20px;
 	width: 15px;
 	height: 15px;
 }

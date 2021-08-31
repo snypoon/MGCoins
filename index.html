@@ -49,7 +49,7 @@
 					<button class="navbar__btn hover-darken">Log in</button>
 				</div>
 			</nav>
-			<section class="hero">
+			<div class="hero">
 				<ul class="hero__slider" id="slides">
 					<li class="hero__slide slide showing"></li>
 					<li class="hero__slide slide"></li>
@@ -65,15 +65,13 @@
 						<div class="hero__arrow hover-darken" id="next">&#8250;</div>
 					</div>
 				</div>
-			</section>
+			</div>
 			<form class="catalog">
 				<div class="catalog__label">
 					<h3 class="catalog__title">MODERN GOLD COINS CATALOG</h3>
-					<button type="reset"  class="catalog__filters">
-						<div class="filters__close hover-darken">
-							<img class="filters__close_icon" src="media/close.svg" alt="close">
-						</div>
-						<div class="filters__title">Reset Filters</div>
+					<button class="filters__close hover-darken" type="reset"  class="catalog__filters">
+						<img class="filters__close_icon" src="media/close.svg" alt="close">
+						<span class="filters__title">Reset Filters</span>
 					</button>
 				</div>
 				<div class="catalog__form">
@@ -128,7 +126,7 @@
 							</select>
 						</div>
 						<div class="custom__weight_to custom-select-catalog">
-							<select class="form__weight_to"required>
+							<select class="form__weight_to" required>
 								<option value="" disabled selected hidden>To</option>
 								<option>Option 1</option>
 								<option>Option 2</option>
@@ -195,7 +193,7 @@
 					<h1 class="auction__title">COIN AUCTIONS</h1>
 					<div class="auction__showall hover-darken">
 						<div class="auction__showall_text">Show all auctions</div>
-						<img src="media/arrow_small_yellow.svg" alt="arrow" class="auction__showall_arrow"></img>
+						<img src="media/arrow_small_yellow.svg" alt="arrow" class="auction__showall_arrow">
 					</div>
 				</div>
 				<div class="auction__table">
@@ -205,7 +203,7 @@
 							<div class="auction__icons">
 								<img src="media/close.svg" alt="close" class="auction__close hover-darken">
 								<img src="media/eye_icon.svg" alt="view" class="auction__view hover-darken">
-								<img src="media/star_icon.svg" alt="star"class="auction__star hover-darken">
+								<img src="media/star_icon.svg" alt="star" class="auction__star hover-darken">
 							</div>
 						</div>
 						<div class="auction__right">
@@ -237,7 +235,7 @@
 							<div class="auction__icons">
 								<img src="media/close.svg" alt="close" class="auction__close hover-darken">
 								<img src="media/eye_icon.svg" alt="view" class="auction__view hover-darken">
-								<img src="media/star_icon.svg" alt="star"class="auction__star hover-darken">
+								<img src="media/star_icon.svg" alt="star" class="auction__star hover-darken">
 							</div>
 						</div>
 						<div class="auction__right">
@@ -266,7 +264,7 @@
 							<div class="auction__icons">
 								<img src="media/close.svg" alt="close" class="auction__close hover-darken">
 								<img src="media/eye_icon.svg" alt="view" class="auction__view hover-darken">
-								<img src="media/star_icon.svg" alt="star"class="auction__star hover-darken">
+								<img src="media/star_icon.svg" alt="star" class="auction__star hover-darken">
 							</div>
 						</div>
 						<div class="auction__right">
@@ -303,7 +301,7 @@
 							<div class="auction__icons">
 								<img src="media/close.svg" alt="close" class="auction__close hover-darken">
 								<img src="media/eye_icon.svg" alt="view" class="auction__view hover-darken">
-								<img src="media/star_icon.svg" alt="star"class="auction__star hover-darken">
+								<img src="media/star_icon.svg" alt="star" class="auction__star hover-darken">
 							</div>
 						</div>
 						<div class="auction__right">
@@ -335,10 +333,10 @@
 					<div class="news__archive">
 						<input class="archive__input" type="text" placeholder="News Archive" />
 						<div class="archive__icon hover-darken">
-							<img class="archive__arrow arrow-icon-left" src="media/arrow_small_icon.svg"></img>
+							<img class="archive__arrow arrow-icon-left" src="media/arrow_small_icon.svg" alt="icon">
 						</div>
 						<div class="archive__icon hover-darken">
-							<img class="archive__arrow" src="media/arrow_small_icon.svg"></img>
+							<img class="archive__arrow" src="media/arrow_small_icon.svg" alt="icon">
 						</div>
 					</div>
 				</div>
@@ -385,7 +383,7 @@
 						</div>
 						<div class="table__row">
 							<div class="table__column">
-								<img class="table__icon" src="media/xay.svg">
+								<img class="table__icon" src="media/xay.svg" alt="icon">
 								<span>1 XAY</span>  
 								<span class="text-light-hint">(72,23$)</span>
 							</div>
@@ -395,7 +393,7 @@
 						</div>
 						<div class="table__row">
 							<div class="table__column">
-								<img class="table__icon" src="media/usd.svg">
+								<img class="table__icon" src="media/usd.svg" alt="icon">
 								<span>1 USD</span>  
 								<span class="text-light-hint">(72,23$)</span>
 							</div>
@@ -405,7 +403,7 @@
 						</div>
 						<div class="table__row">
 							<div class="table__column">
-								<img class="table__icon" src="media/euro.svg">
+								<img class="table__icon" src="media/euro.svg" alt="icon">
 								<span>1 EUR</span>  
 								<span class="text-light-hint">(72,23$)</span>
 							</div>
@@ -415,7 +413,7 @@
 						</div>
 						<div class="table__row">
 							<div class="table__column">
-								<img class="table__icon" src="media/gpb.svg">
+								<img class="table__icon" src="media/gpb.svg" alt="icon">
 								<span>1 GPB</span>  
 								<span class="text-light-hint">(72,23$)</span>
 							</div>
@@ -425,7 +423,7 @@
 						</div>
 						<div class="table__row">
 							<div class="table__column">
-								<img class="table__icon" src="media/ruble.svg">
+								<img class="table__icon" src="media/ruble.svg" alt="icon">
 								<span>1 RUB</span>  
 								<span class="text-light-hint">(72,23$)</span>
 							</div>
@@ -435,7 +433,7 @@
 						</div>
 						<div class="table__row">
 							<div class="table__column">
-								<img class="table__icon" src="media/yen.svg">
+								<img class="table__icon" src="media/yen.svg" alt="icon">
 								<span>1 JPY</span>  
 								<span class="text-light-hint">(72,23$)</span>
 							</div>
@@ -445,7 +443,7 @@
 						</div>
 						<div class="table__row">
 							<div class="table__column">
-								<img class="table__icon" src="media/yen.svg">
+								<img class="table__icon" src="media/yen.svg" alt="icon">
 								<span>1 CNY</span>  
 								<span class="text-light-hint">(72,23$)</span>
 							</div>
@@ -455,47 +453,48 @@
 						</div>
 					</div>
 					<div class="rate__metalls">
-							<div class="metalls__row">
-								<div class="metalls__col">
-									<img class="metalls__icon" src="media/usd.svg" alt="icon">
-									<div class="metalls__title">Gold</div>
-								</div>
-								<div class="metalls__col">
-									<span class="metals__data">0.0203</span>
-									<span class="metals__data">54.1915</span>
-								</div>
+						<div class="metalls__row">
+							<div class="metalls__col">
+								<img class="metalls__icon" src="media/usd.svg" alt="icon">
+								<div class="metalls__title">Gold</div>
 							</div>
-							<div class="metalls__row">
-								<div class="metalls__col">
-									<img class="metalls__icon" src="media/usd.svg" alt="icon">
-									<div class="metalls__title">Silver</div>
-								</div>
-								<div class="metalls__col">
-									<span class="metals__data">0.0203</span>
-									<span class="metals__data">54.1915</span>
-								</div>
+							<div class="metalls__col">
+								<span class="metals__data">0.0203</span>
+								<span class="metals__data">54.1915</span>
 							</div>
-							<div class="metalls__row metalls__row-active">
-								<div class="metalls__col">
-									<img class="metalls__icon" src="media/usd.svg" alt="icon">
-									<div class="metalls__title">Platinum</div>
-								</div>
-								<div class="metalls__col">
-									<span class="metals__data">0.0203</span>
-									<span class="metals__data">54.1915</span>
-								</div>
+						</div>
+						<div class="metalls__row">
+							<div class="metalls__col">
+								<img class="metalls__icon" src="media/usd.svg" alt="icon">
+								<div class="metalls__title">Silver</div>
 							</div>
-							<div class="metalls__row">
-								<div class="metalls__col">
-									<img class="metalls__icon" src="media/usd.svg" alt="icon">
-									<div class="metalls__title">Palladium</div>
-								</div>
-								<div class="metalls__col">
-									<span class="metals__data">0.0203</span>
-									<span class="metals__data">54.1915</span>
-								</div>
+							<div class="metalls__col">
+								<span class="metals__data">0.0203</span>
+								<span class="metals__data">54.1915</span>
 							</div>
+						</div>
+						<div class="metalls__row metalls__row-active">
+							<div class="metalls__col">
+								<img class="metalls__icon" src="media/usd.svg" alt="icon">
+								<div class="metalls__title">Platinum</div>
+							</div>
+							<div class="metalls__col">
+								<span class="metals__data">0.0203</span>
+								<span class="metals__data">54.1915</span>
+							</div>
+						</div>
+						<div class="metalls__row">
+							<div class="metalls__col">
+								<img class="metalls__icon" src="media/usd.svg" alt="icon">
+								<div class="metalls__title">Palladium</div>
+							</div>
+							<div class="metalls__col">
+								<span class="metals__data">0.0203</span>
+								<span class="metals__data">54.1915</span>
+							</div>
+						</div>
 					</div>
+				</div>
 			</section>
 			<section class="about">
 				<div class="about__label">
@@ -554,13 +553,13 @@
 					</div>
 				</div>
 				<form class="subscription__form">
-					<input class="subscription__input" type="email" name="email" class="w-100" placeholder="E-Mail" required/>
-					<input class="subscription__input" type="name" name="name" class="w-100" placeholder="Name" required/>
+					<input class="subscription__input" type="email" name="email" placeholder="E-Mail" required/>
+					<input class="subscription__input" type="text" name="name" placeholder="Name" required/>
 					<div class="subscription__action">
 						<label class="subscription__checkbox">
-								<input class="subscription__checkbox_input" type="checkbox"/>
-								<div class="subscription__checkbox-icon"></div>
-								<div>I give to receive mailings</div>
+							<input class="subscription__checkbox_input" type="checkbox" required/>
+							<span class="subscription__checkbox-icon"></span>
+							<span>I give to receive mailings</span>
 						</label>
 						<button type="submit" class="subscription__btn hover-lighten">Subscribe</button>
 					</div>
@@ -671,7 +670,7 @@
 			</footer>
 		</div>
 	</div>
-	<script src="js/script.js"></script>
+	<script src="js/script.js">
 	</script>
 </body>
 
