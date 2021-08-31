@@ -1,30 +1,52 @@
 //Slider
 
-const heroImages = [
-  "media/hero-image-1.png",
-  "https://via.placeholder.com/400x140.png/ffeed2?text=Image-2",
-  "https://via.placeholder.com/400x140.png/ffeed2?text=Image-3",
-  "https://via.placeholder.com/400x140.png/ffeed2?text=Image-4",
-];
-let currentHeroImageIndex = 0;
-function onHeroGalleryScrollLeft() {
-  const img = document.getElementById("hero-image");
-  if (currentHeroImageIndex === 0) {
-      currentHeroImageIndex = heroImages.length - 1;
-  } else {
-      currentHeroImageIndex -= 1;
-  }
-  img.src = heroImages[currentHeroImageIndex];
+var slides = document.querySelectorAll('#slides .slide');
+var currentSlide = 0;
+var slideInterval = setInterval(nextSlide,5000);
+
+function nextSlide(){
+	goToSlide(currentSlide+1);
 }
-function onHeroGalleryScrollRight() {
-  const img = document.getElementById("hero-image");
-  if (currentHeroImageIndex === heroImages.length - 1) {
-      currentHeroImageIndex = 0;
-  } else {
-      currentHeroImageIndex += 1;
-  }
-  img.src = heroImages[currentHeroImageIndex];
+
+function previousSlide(){
+	goToSlide(currentSlide-1);
 }
+
+function goToSlide(n){
+	slides[currentSlide].className = 'slide';
+	currentSlide = (n+slides.length)%slides.length;
+	slides[currentSlide].className = 'slide showing';
+}
+
+var playing = true;
+var pauseButton = document.getElementById('pause');
+
+function pauseSlideshow(){
+	playing = false;
+	clearInterval(slideInterval);
+}
+
+function playSlideshow(){
+	playing = true;
+	slideInterval = setInterval(nextSlide,5000);
+}
+
+pauseButton.onclick = function(){
+	if(playing){ pauseSlideshow(); }
+	else{ playSlideshow(); }
+};
+
+var next = document.getElementById('next');
+var previous = document.getElementById('previous');
+
+next.onclick = function(){
+	pauseSlideshow();
+	nextSlide();
+};
+previous.onclick = function(){
+	pauseSlideshow();
+	previousSlide();
+};
 
 // Scroll
 

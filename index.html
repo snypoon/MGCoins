@@ -50,15 +50,19 @@
 				</div>
 			</nav>
 			<section class="hero">
-				<img class="hero__image" id="hero-image" alt="hero-image" src="media/hero-image-1.png" />
+				<ul class="hero__slider" id="slides">
+					<li class="hero__slide slide showing"></li>
+					<li class="hero__slide slide"></li>
+				</ul>
 				<div class="hero__overlay">
 					<div class="hero__content">
 						<div class="hero__icon">
-							<div class="hero__arrow arrow-icon-left hover-darken" onClick="onHeroGalleryScrollLeft();">&#8250;</div>
+							<div class="hero__arrow arrow-icon-left hover-darken" id="previous">&#8250;</div>
 						</div>
 					</div>
+					<button class="controls" id="pause"></button>
 					<div class="hero__icon">
-						<div class="hero__arrow hover-darken" onClick="onHeroGalleryScrollRight();">&#8250;</div>
+						<div class="hero__arrow hover-darken" id="next">&#8250;</div>
 					</div>
 				</div>
 			</section>
